@@ -46,8 +46,8 @@ PACKAGES="$PACKAGES script-utils"
 PACKAGES="$PACKAGES luci-i18n-samba4-zh-cn"
 
 
-PACKAGES="$PACKAGES luci-app-store"
-PACKAGES="$PACKAGES luci-app-wechatpush"
+# PACKAGES="$PACKAGES luci-app-store"
+# PACKAGES="$PACKAGES luci-app-wechatpush"
 
 # 构建镜像
 echo "$(date '+%Y-%m-%d %H:%M:%S') - Building image with the following packages:"
